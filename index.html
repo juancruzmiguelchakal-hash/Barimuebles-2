@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barimuebles | BariClásico y Barielegante</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Barimuebles</h1>
+        <p>Elegancia clásica en cada pieza.</p>
+      </div>
+      <nav class="main-nav">
+        <a href="#hero">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#promos">BariPromos</a>
+        <a href="#sobre">Sobre nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="cart-button" id="cartToggle">Carrito <span id="cartCount">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Barimuebles</span>
+          <h2>Diseño clásico y elegancia atemporal para tu hogar</h2>
+          <p>Descubre muebles finos con nombres exclusivos: Barisofa, Baricama, Barimesa y más. Crea ambientes de lujo con cada detalle.</p>
+          <div class="hero-actions">
+            <a href="#productos" class="btn btn-primary">Ver productos</a>
+            <a href="#contacto" class="btn btn-secondary">Solicitar cotización</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=900&q=80" alt="Sala elegante con muebles clásicos" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-products" id="productos">
+      <div class="container">
+        <div class="section-heading">
+          <span>Productos destacados</span>
+          <h3>BariClásicos para cada espacio</h3>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-promos" id="promos">
+      <div class="container">
+        <div class="section-heading">
+          <span>BariPromos</span>
+          <h3>BariPromos exclusivas en Barimuebles</h3>
+        </div>
+        <div class="promo-grid">
+          <article class="promo-card">
+            <h4>20% en Barisofá + Baricama</h4>
+            <p>Compra un Barisofá Prestige y una Baricama Deluxe con descuento especial.</p>
+          </article>
+          <article class="promo-card">
+            <h4>2x1 en Barisilla Lounge</h4>
+            <p>Lleva dos Barisillas Lounge al precio de una. Perfectas para comedor y escritorio.</p>
+          </article>
+          <article class="promo-card">
+            <h4>Envío gratis</h4>
+            <p>Aplica a pedidos de Baricama Deluxe, Barimueble TV o Baribarra Gourmet.</p>
+          </article>
+          <article class="promo-card">
+            <h4>Combo Barimesa + Barisilla</h4>
+            <p>Arma tu comedor Bari con Barimesa Imperial y Barisilla Lounge y ahorra 15%.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-about" id="sobre">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <span>Sobre Barimuebles</span>
+          <h3>Artesanía y estilo clásico para tu hogar moderno</h3>
+          <p>Barimuebles combina tradición y diseño contemporáneo para ofrecer muebles de alta calidad con nombres exclusivos. Cada pieza está pensada para aportar calidez, sofisticación y confort.</p>
+          <ul>
+            <li>Materiales nobles y acabados selectos</li>
+            <li>Diseño clásico con toque contemporáneo</li>
+            <li>Atención personalizada y envíos confiables</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80" alt="Interior clásico de sala" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-testimonials">
+      <div class="container">
+        <div class="section-heading">
+          <span>Testimonios</span>
+          <h3>Clientes felices con su elección Bari</h3>
+        </div>
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <p>"Mi Baricama Deluxe transformó mi dormitorio. Lujo y confort en un solo paquete."</p>
+            <strong>— Ana M.</strong>
+          </article>
+          <article class="testimonial-card">
+            <p>"El Barisofa Prestige es tan cómodo como elegante. Excelente atención y entrega puntual."</p>
+            <strong>— Jorge R.</strong>
+          </article>
+          <article class="testimonial-card">
+            <p>"La combinación de Barimueble TV y Barimesa realza nuestra sala con estilo clásico."</p>
+            <strong>— Sofia G.</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-creator">
+      <div class="container creator-grid">
+        <div class="creator-image">
+          <img src="barifoto.jpeg" alt="Bari creador de Barimuebles" />
+        </div>
+        <div class="creator-copy">
+          <span>Conoce a nuestro creador</span>
+          <h3>Su nombre es Bari, creador de Barimuebles</h3>
+          <p>Su nombre es Bari, tiene 500000 años y levanta 5 Baritoneladas en en Curl de BariBiceps. Su visión es entregar muebles con estilo clásico y fuerza legendaria.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span>Contacto</span>
+          <h3>Solicita tu Baricotización</h3>
+          <p>Completa el formulario y uno de nuestros asesores se comunicará para ayudarte a elegir tus muebles con servicio premium.</p>
+          <div class="contact-details">
+            <p><strong>Email:</strong> contacto@barimuebles.com</p>
+            <p><strong>Teléfono:</strong> +54 911 3048 9378</p>
+          </div>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <label for="name">Nombre completo</label>
+          <input type="text" id="name" name="name" placeholder="Tu barinombre" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Tu baricorreo" required />
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" placeholder="¿Qué necesitas baricotizar?" required></textarea>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <aside class="cart-panel" id="cartPanel">
+    <div class="cart-header">
+      <h4>Carrito de compras</h4>
+      <button id="closeCart" aria-label="Cerrar carrito">×</button>
+    </div>
+    <div class="cart-content" id="cartContent"></div>
+    <div class="cart-footer">
+      <div class="cart-total">Total: <span id="cartTotal">$0</span></div>
+      <button class="btn btn-primary" id="checkoutBtn">Finalizar compra</button>
+    </div>
+  </aside>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Barimuebles. Diseño clásico y calidad premium.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
